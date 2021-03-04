@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp xmlns:jfx="http://javafx.com" spec="1.0" href="asa368CalculateGrades.jnlp">
+    <information>
+        <title>asa368CalculateGrades</title>
+        <vendor>a3yko</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="asa368CalculateGrades.jar" size="8004" download="eager"/>
+    </resources>
+    <applet-desc width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback" name="asa368CalculateGrades">
+        <param name="requiredFXVersion" value="8.0+"/>
+    </applet-desc>
+    <jfx:javafx-desc width="800" height="600" main-class="asa368calculategrades.Asa368CalculateGrades"
+                     name="asa368CalculateGrades"/>
+    <update check="always"/>
+</jnlp>
